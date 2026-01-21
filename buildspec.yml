@@ -12,6 +12,6 @@ phases:
       - terraform init
   build:
     commands:
-      #- terraform destroy -auto-approve
+      - terraform destroy -auto-approve
 
-      - terraform apply -auto-approve
+      #- terraform apply -auto-approve
